@@ -1,0 +1,22 @@
+{
+  "name": "at",
+  "version": "1.0.0",
+  "description": ".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SauliusNesukaitis/AT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SauliusNesukaitis/AT/issues"
+  },
+  "homepage": "https://github.com/SauliusNesukaitis/AT#readme",
+  "devDependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}
