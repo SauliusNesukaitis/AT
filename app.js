@@ -165,3 +165,27 @@ for(let number = 1 ; number <= 20; number++){
     console.log(number);
     }
 }
+
+
+// Prototype and Inheritance, Classes, Constructor
+
+// 1
+
+class Animal {
+    constructor(name) {
+        this.name = name;
+    }
+    move() {
+        console.log(`${this.name} is moving`);
+    }
+}
+
+class Cat extends Animal {
+    constructor(name) {
+        super(name)
+    }
+}
+
+let cat1 = new Cat("Black cat");
+
+cat1.move();
