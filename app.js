@@ -191,5 +191,34 @@ let cat1 = new Cat("Black cat");
 cat1.move();
 
 
+// String, RegExp, DateTime
+
+// 1
+
+let str = "ahb acb aeb aeeb adcb axeb";
+
+let re = /a.b/gi;
+
+// let re = /abc/gi;
+
+console.log(str.match(re));
+
+// 2
+
+let str1 ='2 + 3 223 2223';
+
+let re1 = /2\s\+\s3/gi;
+
+console.log(str1.match(re1));
+
+// 3
 
 
+const newDate = new Date();
+const year = newDate.getFullYear();
+const month = newDate.getMonth() + 1;
+const d = newDate.getDate();
+  
+console.log(year);
+console.log(month);
+console.log(d);
