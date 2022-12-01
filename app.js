@@ -222,3 +222,25 @@ const d = newDate.getDate();
 console.log(year);
 console.log(month);
 console.log(d);
+
+
+// Exception handling
+
+// 1
+
+try {
+    // let a = 1/0;
+    console.log(a);
+    let a = 3;
+    if (a === 1/0)
+        throw Error()
+} 
+catch (a) {
+    if (a instanceof  ReferenceError) {
+        console.error("'let must be declared' before use.")
+    } else if (a) {
+        console.log("cannot be divided by zero")
+    }
+}
+ 
+
